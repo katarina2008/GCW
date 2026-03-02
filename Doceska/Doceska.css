@@ -1,0 +1,24 @@
+header{
+    background-color: #C52C69;
+    
+}
+
+footer{
+    background-color: #C52C69;
+}
+
+body{
+    background-color: #FCE3CF;
+}
+
+nav{
+    background-color: #FFC2C2;
+    width:250px;
+    
+    
+}
+img{
+    height: 180px;
+    width: 180px;
+    margin-left: 50px;
+}
