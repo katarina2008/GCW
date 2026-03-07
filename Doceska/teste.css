@@ -2,17 +2,12 @@ style {
  box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Style the header */
-header {
-  background-color: #666;
-  
-  text-align: center;
-  font-size: 35px;
-  color: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Container for flexboxes */
@@ -28,6 +23,7 @@ nav {
   flex: 0;
   background: #ccc;
   padding: 20px;
+  margin-top: 0%;
 }
 
 /* Style the list inside the menu */
@@ -64,13 +60,11 @@ footer {
 
 header{
     background-color: #C52C69;
-
+    color: white;
     font-family: "Irish Grover", system-ui;
-    font-weight: 400;
-    font-style: normal;
     font-size: 50px;
     padding: auto;
-    
+    text-align: center;
 }
 
 footer{
@@ -92,6 +86,7 @@ nav{
     width: 250px;
     text-align: center;
     align-items: center;
+    border-radius: 5%;
 }
 
 
@@ -110,6 +105,7 @@ nav{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
+    border-radius: 10%;
 
 
 }
@@ -121,6 +117,9 @@ nav{
   font-size: 80px;
   text-align: center;
   color: #CA3333;
+  margin-top: 5%;
+  
+  
   
 }
 
@@ -158,10 +157,57 @@ nav{
   color: #8D7938;
 }
 
+.container{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.container-bolos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+    
+    
+    
+}
+
+.receita{
+    width: 250px;
+    text-align: center;
+   
+}
+
+.receita img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
 .logo{
     height: 150px;
     width: 250px;
+    border-radius: 5%;
 
+}
+
+.FVM{
+  background-color: #FBCFCF;
+  color: #920024;
+  margin-top: 2%;
+  
+ 
+}
+
+
+.float{
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+ 
 }
 
 .whats{
@@ -179,4 +225,40 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+}
+
+/*BOLOS*/
+
+.bolo1{
+  color: #CD0000;
+}
+.bolo2{
+  color: #802A2A ;
+}
+.bolo3{
+  color: #D45800;
+}
+.bolo4{
+  color: #215E0B ;
+}
+.bolo5{
+  color: #9D0A0A ;
+}
+.bolo6{
+  color: #8F2929 ;
+}
+
+.blm{
+  float: right;
+}
+
+
+/*RECEITAS*/
+
+.receita1{
+  justify-content: center;
+}
+
+.float{
+  float: right;
 }
