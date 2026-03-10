@@ -1,6 +1,72 @@
+style {
+ box-sizing: border-box;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  background: #ccc;
+  padding: 20px;
+  margin-top: 0%;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-image: url(imagens/cereja3.jpg);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
 header{
     background-color: #C52C69;
-    
+    color: white;
+    font-family: "Irish Grover", system-ui;
+    font-size: 50px;
+    padding: auto;
+    text-align: center;
+
 }
 
 footer{
@@ -8,17 +74,297 @@ footer{
 }
 
 body{
-    background-color: #FCE3CF;
+   background-image: url(imagens/oi.jpg);
+    
 }
 
 nav{
     background-color: #FFC2C2;
-    width:250px;
+    
     
     
 }
-img{
-    height: 180px;
-    width: 180px;
-    margin-left: 50px;
+.imagens{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5%;
 }
+
+
+
+.boasvindas{
+    background-color: #E0A4A4;
+    padding: 5%;
+    width: 80%;
+    font-size: 80px;
+    box-sizing: border-box;
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #7a1212;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 10%;
+
+
+}
+
+.carattere-regular {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+  color: #CA3333;
+  margin-top: 5%;
+  
+  
+  
+}
+
+.opacidade{
+  background-color: #fbccccd5;
+  
+  
+
+}
+
+.bolos{
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  
+  color: #B20C0C;
+}
+
+.tortas{
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  
+  color: #4C6C30;
+}
+
+.docinhos{
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  
+  color: #8D7938;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.container-bolos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+    
+    
+    
+    
+}
+
+.receita{
+    width: 250px;
+    text-align: center;
+   
+}
+
+.receita img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.logo{
+    height: 150px;
+    width: 250px;
+    border-radius: 5%;
+
+}
+
+.FVM{
+  background-color: #FBCFCF;
+  color: #920024;
+  margin-top: 2%;
+  font-family: "Carattere", cursive;
+  
+ 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.float{
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+ 
+}
+
+.whats{
+
+  width: 20px;
+  
+}
+
+.insta{
+  width: 20px;
+}
+
+footer {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/*BOLOS*/
+
+.bolo1{
+  color: #CD0000;
+  background-color: #e77878ab;
+  
+}
+.bolo2{
+  color: #802A2A ;
+  background-color: #e77878ab;
+}
+.bolo3{
+  color: #D45800;
+  background-color: #e77878ab;
+}
+.bolo4{
+  background-color: #e77878ab;
+  color: #215E0B ;
+}
+.bolo5{
+  color: #9D0A0A ;
+  background-color: #e77878ab;
+}
+.bolo6{
+  color: #8F2929 ;
+  background-color: #e77878ab;
+
+}
+
+.torta1{
+  color: #215E0B;
+  background-color: #e77878ab;
+}
+.torta2{
+  color: #ffd478;
+  background-color: #e77878ab;
+
+}
+.torta3{
+ color: #CA0A0A;
+ background-color: #e77878ab;
+
+}
+.torta4{
+  color: #963A3A;
+  background-color: #e77878ab;
+
+}
+.torta5{
+  color: #825000;
+  background-color: #e77878ab;
+
+}
+.torta6{
+ color: #8F2929;
+ background-color: #e77878ab;
+ 
+
+}
+
+.doce1{
+  background-color: #e77878ab;
+  color: #215E0B;
+
+}
+.doce2{
+  background-color: #e77878ab;
+  color: #F40000;
+}
+.doce3{
+  background-color: #e77878ab;
+  color: #FF1255;
+}
+.doce4{
+  background-color: #e77878ab;
+  color: #963A3A;
+}
+.doce5{
+  background-color: #e77878ab;
+  color: #825000;
+}
+.doce6{
+  background-color: #e77878ab;
+  color: #8F2929;
+}
+
+
+
+
+
+
+
+
+
+
+.blm{
+  float: right;
+  font-size: 70px;
+  padding: 5%;
+  
+
+}
+
+
+/*RECEITAS*/
+
+
+.float{
+  float: right;
+}
+
+
+
+
+
+
+
+
+.ceita{
+  background-color: #FBCCCC;
+  float: right;
+  font-size: 30px;
+  color: #CA3333;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 5%;
+  padding: 2%;
+  
+}
+
