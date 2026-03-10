@@ -4,6 +4,7 @@ style {
 
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +39,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #FCE3CF;
+  background-image: url(imagens/cereja3.jpg);
   padding: 10px;
 }
 
@@ -65,6 +66,7 @@ header{
     font-size: 50px;
     padding: auto;
     text-align: center;
+
 }
 
 footer{
@@ -72,7 +74,8 @@ footer{
 }
 
 body{
-    background-color: #FCE3CF;
+   background-image: url(imagens/oi.jpg);
+    
 }
 
 nav{
@@ -101,7 +104,7 @@ nav{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: #530000;
+    color: #7a1212;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -124,7 +127,7 @@ nav{
 }
 
 .opacidade{
-  background-color: #FBCCCC;
+  background-color: #fbccccd5;
   
   
 
@@ -173,6 +176,7 @@ nav{
     
     
     
+    
 }
 
 .receita{
@@ -198,9 +202,15 @@ nav{
   background-color: #FBCFCF;
   color: #920024;
   margin-top: 2%;
+  font-family: "Carattere", cursive;
   
  
 }
+
+a {
+    text-decoration: none;
+}
+
 
 
 .float{
@@ -231,34 +241,64 @@ footer {
 
 .bolo1{
   color: #CD0000;
+  background-color: #e77878ab;
+  
 }
 .bolo2{
   color: #802A2A ;
+  background-color: #e77878ab;
 }
 .bolo3{
   color: #D45800;
+  background-color: #e77878ab;
 }
 .bolo4{
+  background-color: #e77878ab;
   color: #215E0B ;
 }
 .bolo5{
   color: #9D0A0A ;
+  background-color: #e77878ab;
 }
 .bolo6{
   color: #8F2929 ;
+  background-color: #e77878ab;
+
 }
 
 .blm{
   float: right;
+  font-size: 70px;
+  padding: 5%;
+  
+
 }
 
 
 /*RECEITAS*/
 
-.receita1{
-  justify-content: center;
-}
 
 .float{
   float: right;
 }
+
+
+
+
+
+
+
+
+.ceita{
+  background-color: #FBCCCC;
+  float: right;
+  font-size: 30px;
+  color: #CA3333;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 5%;
+  padding: 2%;
+  
+}
+
