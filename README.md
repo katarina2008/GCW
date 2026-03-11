@@ -1,2 +1,2 @@
 # GCW
-https://github.com/katarina2008/GCW/Doceska
+https://github.com/katarina2008/GCW.git
